@@ -12,7 +12,7 @@ Once there, opening a terminal will give you access to Apptainer.
 
 ## How to use
 
-1. Download `ros2-jazzy.def`.
+1. Download `ros-jazzy.def`.
 
 2. Place the file inside a folder in your Documents folder. Any folder will work, but I recommend having a single location where it is easy to launch Apptainer and access your files.
 
@@ -21,7 +21,7 @@ Once there, opening a terminal will give you access to Apptainer.
 4. Run:
 
    ```bash
-   apptainer build ros2-jazzy.sif ros2-jazzy.def
+   apptainer build ros-jazzy.sif ros-jazzy.def
    ```
 
    This will build the environment and download all the necessary components for ROS 2 to work.
@@ -29,7 +29,7 @@ Once there, opening a terminal will give you access to Apptainer.
 5. Run:
 
    ```bash
-   apptainer shell ros2-jazzy.sif
+   apptainer shell ros-jazzy.sif
    ```
 
    Every time you want to access your environment from a new terminal, you will have to run this command.
